@@ -7,7 +7,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    allow-access-control-allow-origin = "*"
+    Access-Control-Allow-Origin = "*"
 
 [functions]
   node_bundler = "esbuild" 
