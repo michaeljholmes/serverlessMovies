@@ -5,7 +5,7 @@
   publish = "public"
 
 [[headers]]
-  for = "/.netlify/functions/movieCompanies"
+  for = "*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
 
