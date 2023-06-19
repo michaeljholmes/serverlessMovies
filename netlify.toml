@@ -5,9 +5,9 @@
   publish = "public"
 
 [[headers]]
-  for = "*"
+  for = "/*"
   [headers.values]
-    Access-Control-Allow-Origin = "*"
+    access-control-allow-origin = "*"
 
 [functions]
   node_bundler = "esbuild" 
