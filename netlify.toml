@@ -4,6 +4,11 @@
   functions = "netlify/functions"
   publish = "public"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    allow-access-control-allow-origin = "*"
+
 [functions]
   node_bundler = "esbuild" 
 
